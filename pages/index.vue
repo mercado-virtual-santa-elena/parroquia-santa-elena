@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        parroquia-santa-elena
+        <n-link to="/about">parroquia-santa-elena</n-link>
       </h1>
       <div class="links">
         <a
