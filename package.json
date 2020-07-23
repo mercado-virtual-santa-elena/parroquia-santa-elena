@@ -7,7 +7,10 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "export": "nuxt export",
-    "serve": "nuxt serve"
+    "serve": "nuxt serve",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build && nuxt export"
   },
   "dependencies": {
     "nuxt": "^2.13.0"
