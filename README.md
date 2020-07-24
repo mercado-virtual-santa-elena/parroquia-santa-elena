@@ -1,6 +1,6 @@
-# parroquia-santa-elena
+# Parroquia Santa Elena
 
-## Deploy in github pages
+## 1️⃣ Instrucciones para realizar despliegue en Github pages
 
 ```bash
 # first generate static project
@@ -10,15 +10,15 @@ $ npm run generate:gh-pages
 $ npm run deploy
 ```
 
-## Configuración para GitHub Pages
-Agregar las siguientes dependencias push-dir y cross-env:
-```
+## 2️⃣ Configuración para GitHub Pages
+Agregar las dependencias push-dir y cross-env:
+```javascript
 npm install push-dir --save-dev
 npm install cross-env --save-dev
 ```
 
 Agregar los siguientes scripts en package.json
-```
+```javascript
 "scripts": {
     ...
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
@@ -28,14 +28,14 @@ Agregar los siguientes scripts en package.json
 ```
 
 Agregar en nuxt.config.js
-```
+```javascript
 export default {
   ...
   // change on target server value by static
   target: 'statict',
   ...
   router: {
-    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/tailwind-nuxt-discovery/' : ''
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/parroquia-santa-elena/' : ''
   }
 }
 ```
