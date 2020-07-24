@@ -1,7 +1,7 @@
 <template>
   <div>
     <img
-      :src="'/icons/categorias/alimentos.svg'"
+      src="icons/categorias/alimentos.svg"
       class="w-16"
     />
     <HomeCarousel />
