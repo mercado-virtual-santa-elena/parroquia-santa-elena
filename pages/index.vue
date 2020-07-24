@@ -13,9 +13,9 @@
         </nav>
 
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-          <n-link to="/empresas/alimentos" class="m-auto">
+          <n-link to="/categorias/alimentos" class="m-auto">
             <img
-              src="/icons/home/alimentos.svg"
+              src="/icons/categorias/alimentos.svg"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -25,9 +25,9 @@
         </div>
 
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-          <n-link to="/empresas/alquileres" class="m-auto">
+          <n-link to="/categorias/alquileres" class="m-auto">
             <img
-              src="/icons/home/alquiler.svg"
+              src="/icons/categorias/alquiler.svg"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -37,9 +37,9 @@
         </div>
 
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-          <n-link to="/empresas/construccion" class="m-auto">
+          <n-link to="/categorias/construccion" class="m-auto">
             <img
-              src="/icons/home/construccion.svg"
+              src="/icons/categorias/construccion.svg"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -52,9 +52,9 @@
         </div>
 
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-          <n-link to="/empresas/limpieza" class="m-auto">
+          <n-link to="/categorias/limpieza" class="m-auto">
             <img
-              src="/icons/home/limpieza.svg"
+              src="/icons/categorias/limpieza.svg"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -64,9 +64,9 @@
         </div>
 
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-          <n-link to="/empresas/manualidades" class="m-auto">
+          <n-link to="/categorias/manualidades" class="m-auto">
             <img
-              src="/icons/home/manualidades.svg"
+              src="/icons/categorias/manualidades.svg"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -76,9 +76,9 @@
         </div>
 
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-          <n-link to="/empresas/salud" class="m-auto">
+          <n-link to="/categorias/salud" class="m-auto">
             <img
-              src="/icons/home/salud.svg"
+              src="/icons/categorias/salud.svg"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -88,9 +88,9 @@
         </div>
 
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-          <n-link to="/empresas/servicios" class="m-auto">
+          <n-link to="/categorias/servicios" class="m-auto">
             <img
-              src="/icons/home/servicios.svg"
+              src="/icons/categorias/servicios.svg"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -100,9 +100,9 @@
         </div>
 
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-          <n-link to="/empresas/tecnologia" class="m-auto">
+          <n-link to="/categorias/tecnologia" class="m-auto">
             <img
-              src="/icons/home/tecnologia.svg"
+              src="/icons/categorias/tecnologia.svg"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
