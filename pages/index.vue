@@ -4,6 +4,11 @@
       src="icons/categorias/alimentos.svg"
       class="w-16"
     />
+    <img
+      :src="$router.options.base + 'icons/categorias/alimentos.svg'"
+      class="w-16"
+    />
+    {{$router.options.base}}
     <HomeCarousel />
 
     <section class="bg-yellow-600 py-8">

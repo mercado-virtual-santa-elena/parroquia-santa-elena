@@ -7,6 +7,8 @@
         <n-link to="/">
           <img src="logo.jfif" alt="Logo parroquia" class="object-contain h-24 m-auto md:h-40" />
         </n-link>
+            *{{$route.base}}*
+
       </div>
 
       <div class="w-full text-center mt-4 md:w-auto md:mt-base">
