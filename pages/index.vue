@@ -1,5 +1,9 @@
 <template>
   <div>
+    <img
+      :src="'/icons/categorias/alimentos.svg'"
+      class="w-16"
+    />
     <HomeCarousel />
 
     <section class="bg-yellow-600 py-8">

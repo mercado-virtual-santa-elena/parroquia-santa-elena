@@ -5,7 +5,7 @@
     >
       <div class="w-full md:w-auto">
         <n-link to="/">
-          <img src="/logo.jfif" alt="Logo parroquia" class="object-contain h-24 m-auto md:h-40" />
+          <img :src="'/logo.jfif'" alt="Logo parroquia" class="object-contain h-24 m-auto md:h-40" />
         </n-link>
       </div>
 
