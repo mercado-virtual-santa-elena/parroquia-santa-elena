@@ -1,14 +1,5 @@
 <template>
   <div>
-<!--     <img
-      src="icons/categorias/alimentos.svg"
-      class="w-16"
-    /> -->
-    <img
-      :src="$router.options.base + 'icons/categorias/alimentos.svg'"
-      class="w-16"
-    />
-    {{$router.options.base}}
     <HomeCarousel />
 
     <section class="bg-yellow-600 py-8">
@@ -24,7 +15,7 @@
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
           <n-link to="/categorias/alimentos" class="m-auto">
             <img
-              src="/icons/categorias/alimentos.svg"
+              :src="$router.options.base + 'icons/categorias/alimentos.svg'"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -36,7 +27,7 @@
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
           <n-link to="/categorias/alquileres" class="m-auto">
             <img
-              src="/icons/categorias/alquiler.svg"
+              :src="$router.options.base + 'icons/categorias/alquiler.svg'"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -48,7 +39,7 @@
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
           <n-link to="/categorias/construccion" class="m-auto">
             <img
-              src="/icons/categorias/construccion.svg"
+              :src="$router.options.base + 'icons/categorias/construccion.svg'"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -63,7 +54,7 @@
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
           <n-link to="/categorias/limpieza" class="m-auto">
             <img
-              src="/icons/categorias/limpieza.svg"
+              :src="$router.options.base + 'icons/categorias/limpieza.svg'"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -75,7 +66,7 @@
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
           <n-link to="/categorias/manualidades" class="m-auto">
             <img
-              src="/icons/categorias/manualidades.svg"
+              :src="$router.options.base + 'icons/categorias/manualidades.svg'"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -87,7 +78,7 @@
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
           <n-link to="/categorias/salud" class="m-auto">
             <img
-              src="/icons/categorias/salud.svg"
+              :src="$router.options.base + 'icons/categorias/salud.svg'"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -99,7 +90,7 @@
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
           <n-link to="/categorias/servicios" class="m-auto">
             <img
-              src="/icons/categorias/servicios.svg"
+              :src="$router.options.base + 'icons/categorias/servicios.svg'"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
@@ -111,7 +102,7 @@
         <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
           <n-link to="/categorias/tecnologia" class="m-auto">
             <img
-              src="/icons/categorias/tecnologia.svg"
+              :src="$router.options.base + 'icons/categorias/tecnologia.svg'"
               class="w-16 fill-current text-gray-500 hover:text-black m-auto"
             />
             <div class="pt-3 flex items-center justify-center">
