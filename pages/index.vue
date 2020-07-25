@@ -1,9 +1,9 @@
 <template>
   <div>
-    <img
+<!--     <img
       src="icons/categorias/alimentos.svg"
       class="w-16"
-    />
+    /> -->
     <img
       :src="$router.options.base + 'icons/categorias/alimentos.svg'"
       class="w-16"
