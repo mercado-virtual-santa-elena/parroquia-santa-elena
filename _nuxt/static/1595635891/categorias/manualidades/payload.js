@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/categorias/manualidades", {data:[{}],fetch:[],mutations:void 0});

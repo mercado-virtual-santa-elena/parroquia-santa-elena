@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/parroquia-santa-elena/categorias/alimentos", {data:[],fetch:[],mutations:void 0});

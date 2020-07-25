@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/categorias/alimentos", {data:[{}],fetch:[],mutations:void 0});
